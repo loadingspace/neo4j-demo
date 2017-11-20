@@ -8,7 +8,7 @@ neo4j demo for springboot
 
 2.modify spring config `src/main/resources/application.properties`
 
-`
+```
   # tomcat config
   server.port=8080
 
@@ -16,6 +16,6 @@ neo4j demo for springboot
   spring.data.neo4j.username=neo4j
   spring.data.neo4j.password=root
   spring.data.neo4j.uri=http://localhost:7474
-`
+```
 
 3.run test
