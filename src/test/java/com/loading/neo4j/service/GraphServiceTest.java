@@ -107,7 +107,7 @@ public class GraphServiceTest {
 
     @Test
     public void findPerson() throws Exception {
-        Person person = personDao.findOne(32L,1);
+        Person person = personDao.findOne(32L,2);
         System.out.println(JSON.toJSONString(person));
     }
 
